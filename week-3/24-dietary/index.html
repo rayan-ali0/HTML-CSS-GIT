@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/week3-forms.css" />
   </head>
-
+  <style>
+    label {
+      display: block;
+      margin: 5px;
+    }
+  </style>
   <body>
     <div class="site-wrapper">
       <main>
@@ -20,6 +25,29 @@
 
         <form>
           <!-- Your multiple choice goes here -->
+          <fieldset>
+            <legend>Please select all of your dietary requirements</legend>
+            <label>
+              <input type="checkbox" name="halal" />
+              Halal</label
+            >
+            <label>
+              <input type="checkbox" name="Kosher" />
+              Kosher</label
+            >
+            <label>
+              <input type="checkbox" name="Vegetarian" />
+              Vegetarian</label
+            >
+            <label>
+              <input type="checkbox" name="Vegan" />
+              Vegan</label
+            >
+            <label>
+              <input type="checkbox" name="Gluten Free" />
+              Gluten Free</label
+            >
+          </fieldset>
           <button type="submit">Submit</button>
         </form>
       </main>
