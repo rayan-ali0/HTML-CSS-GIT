@@ -75,11 +75,7 @@ This tells you that there is a merge conflict in the file `week-3/20-git-conflic
 ```CSS
 /* Add your own CSS code below */
 .link {
-<<<<<<< HEAD
-	color: #4491db;
-=======
 	color: fuchsia;
->>>>>>> purple_links
 	font-weight: 700;
 	text-decoration: none;
 }
@@ -101,7 +97,7 @@ Since these commits change the same line of code, git doesn't know which one is 
 Test the changes in your browser. If the links have been changed to a purple colour, you've resolved the merge conflict. Now you need to add and commit the files to complete the merge. Run the following commands:
 
 ```shell
-git add week-3/20-git-conflict/styles.css
+git add week-3/28-git-conflict/styles.css
 git commit -m "Merge purple_links branch"
 ```
 
